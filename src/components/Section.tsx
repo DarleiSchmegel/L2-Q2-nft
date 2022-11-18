@@ -12,7 +12,9 @@ export default function Section() {
 
               <div className="p-8 sm:p-16 lg:p-24 text-lg font-medium">
                 <p className="mt-4 text-gray-500 uppercase mb-3">Overline</p>
-                <h2 className="font-bold text-5xl ">Sapien ipsum scelerisque convallis fusce</h2>
+                <h2 className="font-bold text-white text-5xl ">
+                  Sapien ipsum scelerisque convallis fusce
+                </h2>
 
                 <p className="mt-4 text-gray-500 font-normal">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, molestiae!
