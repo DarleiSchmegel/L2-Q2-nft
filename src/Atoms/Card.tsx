@@ -6,6 +6,7 @@ interface CardProps {
   likes: number;
   peoplesBidding: number;
   time: string;
+  description: string;
   price: string;
   peoplesAvatarLinks: string[];
 }
@@ -16,6 +17,7 @@ export default function Card({
   likes,
   peoplesAvatarLinks,
   peoplesBidding,
+  description,
   price,
   time,
 }: CardProps) {
@@ -32,9 +34,7 @@ export default function Card({
         <div>
           <div>
             <div className="flex flex-row my-4">
-              <p className="font-bold pr-3 text-base">
-                Vulputate felis purus viverra morbi facilisi eget
-              </p>
+              <p className="font-bold text-white text-left pr-3 text-base">{description}</p>
               <p className="rounded bg-gray-600 h-8 flex justify-center items-center text-blue-400 font-bold w-28">
                 {price}
               </p>
@@ -52,7 +52,7 @@ export default function Card({
                   fill="white"
                 />
               </svg>
-              <p className="text-xs">{time} min left</p>
+              <p className="text-white text-xs">{time} min left</p>
             </div>
             <br className="" />
           </div>

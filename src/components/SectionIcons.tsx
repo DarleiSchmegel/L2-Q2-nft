@@ -16,7 +16,7 @@ export default function SectionIcons() {
                 fill="white"
               />
             </svg>
-            <h3 className="font-bold text-6xl">300k</h3>
+            <h3 className="font-bold text-white text-6xl">300k</h3>
             <p className="text-gray-500">User Active</p>
           </li>
           <li className="flex flex-col justify-center items-center gap-3">
@@ -57,7 +57,7 @@ export default function SectionIcons() {
               />
             </svg>
 
-            <h3 className="font-bold text-6xl">52,5k</h3>
+            <h3 className="font-bold text-white text-6xl">52,5k</h3>
             <p className="text-gray-500">Artworks</p>
           </li>
           <li className="flex flex-col justify-center items-center gap-3">
@@ -74,7 +74,7 @@ export default function SectionIcons() {
               />
             </svg>
 
-            <h3 className="font-bold text-6xl">17,5k</h3>
+            <h3 className="font-bold text-white text-6xl">17,5k</h3>
             <p className="text-gray-500">Artists</p>
           </li>
           <li className="flex flex-col justify-center items-center gap-3">
@@ -91,7 +91,7 @@ export default function SectionIcons() {
               />
             </svg>
 
-            <h3 className="font-bold text-6xl">35.58</h3>
+            <h3 className="font-bold text-white text-6xl">35.58</h3>
             <p className="text-gray-500">ETH Spent</p>
           </li>
         </ul>

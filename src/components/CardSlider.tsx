@@ -12,6 +12,7 @@ const data = [
     ],
     price: '3.19 ETH',
     time: '2:41',
+    description: 'Vulputate felis purus viverra morbi facilisi eget',
     peoplesBidding: 101,
     likes: 502,
     isLiked: true,
@@ -25,6 +26,7 @@ const data = [
     ],
     price: '1.13 ETH',
     time: '1:41',
+    description: 'Vulputate felis purus viverra morbi facilisi eget',
     peoplesBidding: 30,
     likes: 302,
     isLiked: false,
@@ -38,6 +40,7 @@ const data = [
     ],
     price: '7.13 ETH',
     time: '5:41',
+    description: 'Vulputate felis purus viverra morbi facilisi eget',
     peoplesBidding: 320,
     likes: 902,
     isLiked: true,
@@ -51,6 +54,7 @@ const data = [
     ],
     price: '3.19 ETH',
     time: '2:41',
+    description: 'Vulputate felis purus viverra morbi facilisi eget',
     peoplesBidding: 101,
     likes: 502,
     isLiked: true,
@@ -64,6 +68,7 @@ const data = [
     ],
     price: '1.93 ETH',
     time: '3:31',
+    description: 'Vulputate felis purus viverra morbi facilisi eget',
     peoplesBidding: 211,
     likes: 392,
     isLiked: true,
@@ -77,6 +82,7 @@ const data = [
     ],
     price: '7.13 ETH',
     time: '5:41',
+    description: 'Vulputate felis purus viverra morbi facilisi eget',
     peoplesBidding: 320,
     likes: 902,
     isLiked: true,
@@ -90,6 +96,7 @@ const data = [
     ],
     price: '7.13 ETH',
     time: '5:41',
+    description: 'Vulputate felis purus viverra morbi facilisi eget',
     peoplesBidding: 320,
     likes: 902,
     isLiked: true,
@@ -203,6 +210,7 @@ export default function CardSlider() {
                   price={resource.price}
                   time={resource.time}
                   peoplesBidding={resource.peoplesBidding}
+                  description={resource.description}
                   likes={resource.likes}
                   isLiked={resource.isLiked}
                 />
@@ -214,4 +222,3 @@ export default function CardSlider() {
     </div>
   );
 }
-
