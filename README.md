@@ -14,9 +14,9 @@ Link Figma:
 
 ## Esse Projeto está hospedado na Vercel
 
-Link: [Vercel Platform](https:)
+Link: [https://l2-q2-nft.vercel.app/](https://l2-q2-nft.vercel.app/)
 
-## Sobrea Tecnologia usada.
+## Sobre a Tecnologia usada.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with
 [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
