@@ -1,5 +1,5 @@
 import Banner from '../components/Banner';
-import Banner2 from '../components/Banner2';
+import Section from '../components/Section';
 import CardSlider from '../components/CardSlider';
 import SectionIcons from '../components/SectionIcons';
 
@@ -8,7 +8,7 @@ export default function Home() {
     <section className="">
       <Banner />
       <CardSlider />
-      <Banner2 />
+      <Section />
       <SectionIcons />
     </section>
   );

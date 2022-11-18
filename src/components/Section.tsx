@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-export default function Banner2() {
+export default function Section() {
   return (
     <>
       <section>

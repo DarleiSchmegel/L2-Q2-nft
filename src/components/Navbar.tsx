@@ -1,12 +1,16 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import { useState } from 'react';
 
 export default function Navbar() {
+  const [isMenuActive, setIsMenuActive] = useState(false);
+
+  console.log(isMenuActive);
   return (
     <>
       <header aria-label="Site Header" className="bg-gray-700 ">
         <div className="mx-auto max-w-screen-2xl px-4 sm:px-6 lg:px-8">
-          <div className="flex h-20 items-center justify-between ">
+          <div className={`flex h-20 items-center justify-between `}>
             <div className="md:flex md:items-center md:gap-12">
               <Link href="/">
                 <a className="block">
@@ -16,7 +20,7 @@ export default function Navbar() {
               </Link>
             </div>
 
-            <div className="hidden md:block">
+            <div className={`hidden md:block ${isMenuActive ? '' : ''}`}>
               <nav aria-label="Site Nav">
                 <ul className="flex items-center gap-6 text-base">
                   <li>
@@ -69,7 +73,10 @@ export default function Navbar() {
               </div>
 
               <div className="block md:hidden">
-                <button className="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75">
+                <button
+                  className="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75"
+                  onClick={() => setIsMenuActive(!isMenuActive)}
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-5 w-5"
